@@ -20,6 +20,7 @@
 
     :host([theme=blue]) {
         --ilw-category--heading-border-top: 2px solid var(--il-industrial);
+        --ilw-category--li-heading-color: var(--il-blue); /*var Category list element heading color*/
     }
 }
 
