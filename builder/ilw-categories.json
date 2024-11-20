@@ -1,9 +1,9 @@
 {
-    "title": "<%= _.startCase(name.slice(4)) %>",
-    "tag": "<%= name %>",
-    "github": "https://github.com/web-illinois/<%= name %>/",
+    "title": "Categories",
+    "tag": "ilw-categories",
+    "github": "https://github.com/web-illinois/ilw-categories/",
     "type": "web component",
-    "element-name": "<%= name %>",
+    "element-name": "ilw-categories",
     "description": "Description for builder.",
     "purpose": "Imperative mood purpose for builder homepage.",
     "toolkit-version": "",
