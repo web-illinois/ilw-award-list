@@ -1,0 +1,36 @@
+/* Styleable variables are in the base layer so they can be overridden easily */
+@layer base {
+    :host {
+        --ilw-category--font: var(--il-font-sans); /*var Set the font used for the nav*/
+        --ilw-category--heading-color: var(#000); /*var Category heading color*/
+        --ilw-category--heading-weight: normal; /*var Category heading weight*/
+        --ilw-category--heading-size: 2rem; /*var Category heading font size*/
+        --ilw-category--heading-padding: 0.3rem 0; /*var Category heading padding*/
+        --ilw-category--heading-border-top: 2px solid var(--il-orange); /*var Category top border*/
+        --ilw-category--padding: 0 1.5rem; /*var Category padding*/
+        --ilw-category--li-margin: 1.5rem 0 0 0; /*var Category list element margin*/
+        --ilw-category--li-heading-size: 1.2rem; /*var Category list element heading size*/
+        --ilw-category--li-heading-font-weight: 600; /*var Category list element heading font weight*/
+        --ilw-category--li-heading-color: var(--il-altgeld); /*var Category list element heading color*/
+        --ilw-category--li-heading-margin: 0.2rem 0; /*var Category list element heading margin*/
+        --ilw-category--li-heading-padding: 0; /*var Category list element heading padding*/
+        --ilw-category--line-height: 1.6666; /*var Category content line height*/
+        --ilw-category--heading-margin: 3rem 0 0 0; /*var Category heading margin*/
+    }
+
+    :host([theme=blue]) {
+        --ilw-category--heading-border-top: 2px solid var(--il-industrial);
+    }
+}
+
+:host {
+    display: block;
+    font-family: var(--ilw-category--font);
+    padding: var(--ilw-category--padding);
+}
+
+.heading {
+    margin: var(--ilw-category--heading-margin);
+    padding: var(--ilw-category--heading-padding);
+    border-top: var(--ilw-category--heading-border-top);
+}
