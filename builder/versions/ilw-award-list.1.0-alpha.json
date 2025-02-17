@@ -17,10 +17,23 @@
         {
             "name": "default",
             "description": "Default information",
-            "text": "<ilw-award-list role=\"region\" aria-labelledby=\"awards-2024\">\n    <h2 slot=\"heading\" id=\"awards-2024\">2024 Awards</h2>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Winners</h3>\n        <ul>\n            <li>\n                <h4>Grand Prize</h4>\n                <p>\n                    <strong>Kyle Timmer</strong><br/>\n                    \"A Biomimetic Scaffold to Improve Rotator Cuff Shoulder Repair\" (Chemical & Biomolecular Engineering)\n                </p>\n            </li>\n            <li>\n                <h4>Design Award</h4>\n                <p>\n                    <strong>Andrew Freeman</strong><br/>\n                    \"Breaking the Ice: Fast and Reliable Aircraft Wing Deicing\" (Electrical Engineering)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Finalists</h3>\n        <ul>\n            <li>\n                <p>\n                    <strong>Satinderpal Kaur</strong><br/>\n                    \"Flooding, Food Security and Plant-insect Interactions\" (Entomology)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>\n</ilw-award-list>"
+            "text": "<h2 slot=\"heading\" id=\"awards-2024\">2024 Awards</h2>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Winners</h3>\n        <ul>\n            <li>\n                <h4>Grand Prize</h4>\n                <p>\n                    <strong>Kyle Timmer</strong><br/>\n                    \"A Biomimetic Scaffold to Improve Rotator Cuff Shoulder Repair\" (Chemical & Biomolecular Engineering)\n                </p>\n            </li>\n            <li>\n                <h4>Design Award</h4>\n                <p>\n                    <strong>Andrew Freeman</strong><br/>\n                    \"Breaking the Ice: Fast and Reliable Aircraft Wing Deicing\" (Electrical Engineering)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Finalists</h3>\n        <ul>\n            <li>\n                <p>\n                    <strong>Satinderpal Kaur</strong><br/>\n                    \"Flooding, Food Security and Plant-insect Interactions\" (Entomology)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>"
         }
     ],
-    "attributes-fixed": [],
+    "attributes-fixed": [
+        {
+            "name": "role",
+            "description": "ARIA role",
+            "depreciated": false,
+            "value": "region"
+        },
+        {
+            "name": "aria-labelledby",
+            "description": "ARIA region label",
+            "depreciated": false,
+            "value": "awards-2024"
+        }
+    ],
     "attributes-text": [],
     "attributes": [
         {
