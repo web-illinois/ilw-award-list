@@ -1,3 +1,4 @@
+// @ts-ignore
 import { readFileSync } from "node:fs";
 
 const contents = readFileSync("src/AwardList.styles.css", "utf-8");
