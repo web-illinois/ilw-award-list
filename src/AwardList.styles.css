@@ -12,7 +12,7 @@
         --ilw-award-list--spacing: 5.75rem; /*var: Spacing between ilw-award-list elements */
     }
 
-    :host[size=large] {
+    :host([size=large]) {
         --ilw-award-list--heading-size: 4rem;
     }
 }

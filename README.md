@@ -52,7 +52,7 @@ The following attributes are available:
             </li>
         </ul>
     </ilw-award-category>
-    <ilw-award-category>
+    <ilw-award-category theme="blue">
         <h3 slot="heading">Finalists</h3>
         <ul>
             <li>

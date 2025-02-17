@@ -6,10 +6,10 @@
     "element-name": "ilw-award-list",
     "description": "Stylized list of awards with categories.",
     "builder-version": "1.0-alpha",
-    "version": "1.0.0-alpha",
+    "version": "1.0.0-alpha2",
     "date": "11/20/2024",
-    "css": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha/ilw-award-list.css",
-    "js": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha/ilw-award-list.js",
+    "css": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha2/ilw-award-list.css",
+    "js": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha2/ilw-award-list.js",
     "production": false,
     "notes": "",
     "parent-style": "padding: 1.5rem;",
@@ -17,7 +17,7 @@
         {
             "name": "default",
             "description": "Default information",
-            "text": "<h2 slot=\"heading\" id=\"awards-2024\">2024 Awards</h2>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Winners</h3>\n        <ul>\n            <li>\n                <h4>Grand Prize</h4>\n                <p>\n                    <strong>Kyle Timmer</strong><br/>\n                    \"A Biomimetic Scaffold to Improve Rotator Cuff Shoulder Repair\" (Chemical & Biomolecular Engineering)\n                </p>\n            </li>\n            <li>\n                <h4>Design Award</h4>\n                <p>\n                    <strong>Andrew Freeman</strong><br/>\n                    \"Breaking the Ice: Fast and Reliable Aircraft Wing Deicing\" (Electrical Engineering)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Finalists</h3>\n        <ul>\n            <li>\n                <p>\n                    <strong>Satinderpal Kaur</strong><br/>\n                    \"Flooding, Food Security and Plant-insect Interactions\" (Entomology)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>"
+            "text": "<h2 slot=\"heading\" id=\"awards-2024\">2024 Awards</h2>\n<ilw-award-category>\n    <h3 slot=\"heading\">Winners</h3>\n    <ul>\n        <li>\n            <h4>Grand Prize</h4>\n            <p>\n                <strong>Kyle Timmer</strong><br/>\n                \"A Biomimetic Scaffold to Improve Rotator Cuff Shoulder Repair\" (Chemical & Biomolecular Engineering)\n            </p>\n        </li>\n        <li>\n            <h4>Design Award</h4>\n            <p>\n                <strong>Andrew Freeman</strong><br/>\n                \"Breaking the Ice: Fast and Reliable Aircraft Wing Deicing\" (Electrical Engineering)\n            </p>\n        </li>\n    </ul>\n</ilw-award-category>\n<ilw-award-category theme=\"blue\">\n    <h3 slot=\"heading\">Finalists</h3>\n    <ul>\n        <li>\n            <p>\n                <strong>Satinderpal Kaur</strong><br/>\n                \"Flooding, Food Security and Plant-insect Interactions\" (Entomology)\n            </p>\n        </li>\n    </ul>\n</ilw-award-category>"
         }
     ],
     "attributes-fixed": [
