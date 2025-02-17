@@ -1,12 +1,12 @@
 import {LitElement, html, unsafeCSS, css} from "lit";
 // @ts-ignore
-import styles from "./Categories.styles.css?inline";
+import styles from "./AwardCategory.styles.css?inline";
 import { customElement, property } from "lit/decorators.js";
 
-@customElement("ilw-categories")
-export class Categories extends LitElement {
+@customElement("ilw-award-category")
+export class AwardCategory extends LitElement {
     @property()
-    theme = "";
+    theme: "orange" | "blue" = "orange";
 
     static get styles() {
         return unsafeCSS(styles);
@@ -21,9 +21,7 @@ export class Categories extends LitElement {
         return html`
             <div class="inner">
                 <div class="heading">
-                    <div class="heading-inner">
-                        <slot name="heading"></slot>
-                    </div>
+                    <slot name="heading"></slot>
                 </div>
                 <div class="content">
                     <slot></slot>
@@ -35,6 +33,6 @@ export class Categories extends LitElement {
 
 declare global {
     interface HTMLElementTagNameMap {
-        "ilw-categories": Categories;
+        "ilw-award-category": AwardCategory;
     }
 }

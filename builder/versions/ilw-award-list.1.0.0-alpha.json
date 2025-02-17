@@ -1,0 +1,84 @@
+{
+    "title": "Categories",
+    "tag": "ilw-award-list",
+    "github": "https://github.com/web-illinois/ilw-award-list/",
+    "type": "web component",
+    "element-name": "ilw-award-list",
+    "description": "Description for builder.",
+    "version": "1.0.0-alpha",
+    "date": "11/20/2024",
+    "css": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha/ilw-award-list.css",
+    "js": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha/ilw-award-list.js",
+    "production": false,
+    "notes": "",
+    "parent-style": "padding: 1.5rem;",
+    "samples": [
+        {
+            "name": "default",
+            "description": "Default information",
+            "text": "<ilw-award-list role=\"region\" aria-labelledby=\"awards-2024\">\n    <h2 slot=\"heading\" id=\"awards-2024\">2024 Awards</h2>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Winners</h3>\n        <ul>\n            <li>\n                <h4>Grand Prize</h4>\n                <p>\n                    <strong>Kyle Timmer</strong><br/>\n                    \"A Biomimetic Scaffold to Improve Rotator Cuff Shoulder Repair\" (Chemical & Biomolecular Engineering)\n                </p>\n            </li>\n            <li>\n                <h4>Design Award</h4>\n                <p>\n                    <strong>Andrew Freeman</strong><br/>\n                    \"Breaking the Ice: Fast and Reliable Aircraft Wing Deicing\" (Electrical Engineering)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>\n    <ilw-award-category>\n        <h3 slot=\"heading\">Finalists</h3>\n        <ul>\n            <li>\n                <p>\n                    <strong>Satinderpal Kaur</strong><br/>\n                    \"Flooding, Food Security and Plant-insect Interactions\" (Entomology)\n                </p>\n            </li>\n        </ul>\n    </ilw-award-category>\n</ilw-award-list>"
+        }
+    ],
+    "attributes-fixed": [],
+    "attributes-text": [],
+    "attributes": [
+        {
+            "name": "size",
+            "description": "Heading size",
+            "depreciated": false,
+            "values": [
+                "",
+                "large"
+            ]
+        }
+    ],
+    "classes-fixed": [],
+    "classes": [],
+    "css-variables": [
+        {
+            "name": "--ilw-award-list--font",
+            "depreciated": false,
+            "description": "Set the font used for the nav [default: var(--il-font-sans)]"
+        },
+        {
+            "name": "--ilw-award-list--heading-size",
+            "depreciated": false,
+            "description": "Large heading size  [default: 2.5rem]"
+        },
+        {
+            "name": "--ilw-award-list--heading-weight",
+            "depreciated": false,
+            "description": "Large heading weight  [default: bold]"
+        },
+        {
+            "name": "--ilw-award-list--heading-color",
+            "depreciated": false,
+            "description": "Large heading color  [default: var(--il-blue)]"
+        },
+        {
+            "name": "--ilw-award-list--heading-border-top",
+            "depreciated": false,
+            "description": "Large heading top border  [default: 4px solid var(--il-orange)]"
+        },
+        {
+            "name": "--ilw-award-list--heading-gradient",
+            "depreciated": false,
+            "description": "Linear gradient for the fade  [default: linear-gradient(4deg, #FFF 32.24%, rgba(255, 255, 255, 0.58) 84.44%)]"
+        },
+        {
+            "name": "--ilw-award-list--heading-padding",
+            "depreciated": false,
+            "description": "Large heading padding  [default: 1.2rem 1.5rem 1rem]"
+        },
+        {
+            "name": "--ilw-award-list--heading-margin",
+            "depreciated": false,
+            "description": "Large heading margin  [default: 2.5rem 0 2rem]"
+        },
+        {
+            "name": "--ilw-award-list--spacing",
+            "depreciated": false,
+            "description": "Spacing between ilw-award-list elements  [default: 5.75rem]"
+        }
+    ]
+}

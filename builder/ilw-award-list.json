@@ -1,0 +1,12 @@
+{
+    "title": "Categories",
+    "tag": "ilw-award-list",
+    "github": "https://github.com/web-illinois/ilw-award-list/",
+    "type": "web component",
+    "element-name": "ilw-award-list",
+    "description": "Stylized list of awards with categories.",
+    "purpose": "Highlight awards with categories.",
+    "toolkit-version": "",
+    "production-version": "",
+    "development-version": "1.0.0-alpha"
+}

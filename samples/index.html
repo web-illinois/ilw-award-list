@@ -7,13 +7,14 @@
     <title>Categories Component</title>
     <link rel="stylesheet" href="https://cdn.brand.illinois.edu/illinois.css">
     <link rel="stylesheet" href="https://dev.toolkit.illinois.edu/ilw-global/3.0.0-alpha/ilw-global.css">
-    <script type="module" src="/src/ilw-categories.ts"></script>
+    <script type="module" src="/src/ilw-award-list.ts"></script>
 </head>
 
 <body style="padding: 0; max-width: 1000px; margin: 20px auto;">
-<ilw-categories>
-    <h2 slot="heading">2024</h2>
-    <ilw-category>
+<h1>Categories Component</h1>
+<ilw-award-list role="region" aria-labelledby="hehe">
+    <h2 slot="heading" id="hehe">2024 Awards</h2>
+    <ilw-award-category>
         <h3 slot="heading">Winners</h3>
         <ul>
             <li>
@@ -38,8 +39,8 @@
                 </p>
             </li>
         </ul>
-    </ilw-category>
-    <ilw-category theme="blue">
+    </ilw-award-category>
+    <ilw-award-category theme="blue">
         <h3 slot="heading">Finalists</h3>
         <ul>
             <li>
@@ -61,11 +62,11 @@
                 </p>
             </li>
         </ul>
-    </ilw-category>
-</ilw-categories>
-<ilw-categories theme="blue">
-    <h2 slot="heading">2023</h2>
-    <ilw-category>
+    </ilw-award-category>
+</ilw-award-list>
+<ilw-award-list theme="blue" role="region" aria-labelledby="hoho">
+    <h2 slot="heading" id="hoho">2023 Awards</h2>
+    <ilw-award-category theme="blue">
         <h3 slot="heading">Winners</h3>
         <ul>
             <li>
@@ -90,8 +91,8 @@
                 </p>
             </li>
         </ul>
-    </ilw-category>
-    <ilw-category>
+    </ilw-award-category>
+    <ilw-award-category>
         <h3 slot="heading">Finalists</h3>
         <ul>
             <li>
@@ -113,8 +114,8 @@
                 </p>
             </li>
         </ul>
-    </ilw-category>
-</ilw-categories>
+    </ilw-award-category>
+</ilw-award-list>
 </body>
 
 </html>

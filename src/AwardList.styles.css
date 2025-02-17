@@ -1,21 +1,25 @@
 /* Styleable variables are in the base layer so they can be overridden easily */
 @layer base {
     :host {
-        --ilw-categories--font: var(--il-font-sans); /*var Set the font used for the nav*/
-        --ilw-categories--heading-size: 4rem; /*var Large heading size */
-        --ilw-categories--heading-weight: bold; /*var Large heading weight */
-        --ilw-categories--heading-color: var(--il-blue); /*var Large heading color */
-        --ilw-categories--heading-border-top: 4px solid var(--il-orange); /*var Large heading top border */
-        --ilw-categories--heading-gradient: linear-gradient(4deg, #FFF 32.24%, rgba(255, 255, 255, 0.58) 84.44%); /*var Linear gradient for the fade */
-        --ilw-categories--heading-padding: 1.2rem 1.5rem 1rem; /*var Large heading padding */
-        --ilw-categories--heading-margin: 2.5rem 0 2rem; /*var Large heading margin */
-        --ilw-categories--spacing: 5.75rem; /*var Spacing between ilw-categories elements */
+        --ilw-award-list--font: var(--il-font-sans); /*var: Set the font used for the nav*/
+        --ilw-award-list--heading-size: 2.5rem; /*var: Large heading size */
+        --ilw-award-list--heading-weight: bold; /*var: Large heading weight */
+        --ilw-award-list--heading-color: var(--il-blue); /*var: Large heading color */
+        --ilw-award-list--heading-border-top: 4px solid var(--il-orange); /*var: Large heading top border */
+        --ilw-award-list--heading-gradient: linear-gradient(4deg, #FFF 32.24%, rgba(255, 255, 255, 0.58) 84.44%); /*var: Linear gradient for the fade */
+        --ilw-award-list--heading-padding: 1.2rem 1.5rem 1rem; /*var: Large heading padding */
+        --ilw-award-list--heading-margin: 2.5rem 0 2rem; /*var: Large heading margin */
+        --ilw-award-list--spacing: 5.75rem; /*var: Spacing between ilw-award-list elements */
+    }
+
+    :host[size=large] {
+        --ilw-award-list--heading-size: 4rem;
     }
 }
 
 :host {
     display: block;
-    font-family: var(--ilw-categories--font);
+    font-family: var(--ilw-award-list--font);
 }
 
 .heading {
@@ -23,12 +27,12 @@
             url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNjAgMTYwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNjAgMTYwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGNUYwNTt9Cjwvc3R5bGU+CjxnPjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTgxLC0xNjYuNyAtMTk1LjIsMjA5LjUgLTIwMS4xLDIxMC40IDE3NS42LC0xNjYuMyAJIi8+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjIwMSwtMTQ2LjcgLTE3NS4yLDIyOS41IC0xODEuMSwyMzAuNCAxOTUuNiwtMTQ2LjMgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyMjEsLTEyNi43IC0xNTUuMiwyNDkuNSAtMTYxLjEsMjUwLjQgMjE1LjYsLTEyNi4zIAkiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMjQxLC0xMDYuNyAtMTM1LjIsMjY5LjUgLTE0MSwyNzAuNCAyMzUuNiwtMTA2LjMgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyNjEsLTg2LjcgLTExNS4xLDI4OS41IC0xMjEsMjkwLjQgMjU1LjcsLTg2LjMgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyODEsLTY2LjYgLTk1LjEsMzA5LjUgLTEwMSwzMTAuNCAyNzUuNywtNjYuMyAJIi8+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjMwMSwtNDYuNiAtNzUuMSwzMjkuNSAtODEsMzMwLjQgMjk1LjcsLTQ2LjMgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIzMjEuMSwtMjYuNiAtNTUuMSwzNDkuNiAtNjEsMzUwLjQgMzE1LjcsLTI2LjIgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIzNDEuMSwtNi42IC0zNS4xLDM2OS42IC00MSwzNzAuNSAzMzUuNywtNi4yIAkiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMzYxLjEsMTMuNCAtMTUuMSwzODkuNiAtMjEsMzkwLjUgMzU1LjcsMTMuOCAJIi8+CjwvZz4KPC9zdmc+Cg==')
             repeat;
     background-size: 40px;
-    margin: var(--ilw-categories--heading-margin);
+    margin: var(--ilw-award-list--heading-margin);
 
 }
 
 .heading-inner {
-    background: var(--ilw-categories--heading-gradient);
-    padding: var(--ilw-categories--heading-padding);
-    border-top: var(--ilw-categories--heading-border-top);
+    background: var(--ilw-award-list--heading-gradient);
+    padding: var(--ilw-award-list--heading-padding);
+    border-top: var(--ilw-award-list--heading-border-top);
 }
