@@ -1,10 +1,10 @@
 {
-    "title": "Categories",
+    "title": "Award List",
     "tag": "ilw-award-list",
     "github": "https://github.com/web-illinois/ilw-award-list/",
     "type": "web component",
     "element-name": "ilw-award-list",
-    "description": "Description for builder.",
+    "description": "Stylized list of awards with categories.",
     "version": "1.0.0-alpha",
     "date": "11/20/2024",
     "css": "https://dev.toolkit.illinois.edu/ilw-award-list/1.0.0-alpha/ilw-award-list.css",
