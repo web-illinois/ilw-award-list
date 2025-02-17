@@ -1,7 +1,6 @@
 name: delete_development
 on:
   workflow_dispatch:
-
 env:
   COMPONENT_NAME: ${{ github.event.repository.name }}
 jobs:
