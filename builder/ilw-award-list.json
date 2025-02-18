@@ -6,7 +6,7 @@
     "element-name": "ilw-award-list",
     "description": "Stylized list of awards with categories.",
     "purpose": "Highlight awards with categories.",
-    "toolkit-version": "",
-    "production-version": "",
+    "toolkit-version": "1.0",
+    "production-version": "1.0",
     "development-version": "1.0-alpha"
 }

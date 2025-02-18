@@ -1,10 +1,10 @@
 {
     "name": "@illinois-toolkit/ilw-award-list",
     "description": "Styled categories with lists.",
-    "repository": "github:marvel-uiuc/ilw-award-list",
+    "repository": "github:web-illinois/ilw-award-list",
     "private": false,
     "license": "MIT",
-    "version": "1.0.0-alpha2",
+    "version": "1.0.0",
     "type": "module",
     "files": [
         "src/**",
