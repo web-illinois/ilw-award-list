@@ -1,12 +1,16 @@
 {
-    "title": "Award List",
-    "tag": "ilw-award-list",
-    "github": "https://github.com/web-illinois/ilw-award-list/",
-    "type": "web component",
-    "element-name": "ilw-award-list",
-    "description": "Stylized list of awards with categories.",
-    "purpose": "Highlight awards with categories.",
-    "toolkit-version": "1.0",
-    "production-version": "1.0",
-    "development-version": "1.0-alpha"
+  "title": "Award List",
+  "id": "ilw-award-list",
+  "type": "Web Component",
+  "repository-name": "ilw-award-list",
+  "description": "Showcase awards in a polished, categorized list that makes honors and achievements easy to scan.",
+  "purpose": "Highlight awards with categories.",
+  "customtemplates": [],
+  "versions": [
+    {
+      "name": "1.0",
+      "notes": "",
+      "template": "1.0"
+    }
+  ]
 }
