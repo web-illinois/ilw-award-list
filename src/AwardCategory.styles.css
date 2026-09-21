@@ -10,8 +10,8 @@
         --ilw-award-category--heading-border: 2px solid #e2e3e3; /*var Category border*/
         --ilw-award-category--padding: 0 1.5rem; /*var Category padding*/
         --ilw-award-category--li-margin: 2rem 0 0 0; /*var Category list element margin*/
-        --ilw-award-category--li-heading-size: 1.16666em; /*var Category list element heading size*/
-        --ilw-award-category--li-heading-font-weight: 600; /*var Category list element heading font weight*/
+        --ilw-award-category--li-heading-size: 21px; /*var Category list element heading size*/
+        --ilw-award-category--li-heading-font-weight: 700; /*var Category list element heading font weight*/
         --ilw-award-category--li-heading-font-style: italic; /*var Category list element heading font weight*/
         --ilw-award-category--li-heading-color: var(--il-orange); /*var Category list element heading color*/
         --ilw-award-category--li-heading-margin: 0.2rem 0; /*var Category list element heading margin*/
